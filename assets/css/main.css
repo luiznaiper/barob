@@ -22,7 +22,7 @@
 :root {
   --color-default: #222222;
   --color-primary: #ffb400;
-  --color-secondary: #8d6f28;
+  --color-secondary: #bf9b30;
 }
 
 /* Smooth scroll behavior */
@@ -1204,7 +1204,13 @@ section {
   line-height: 1;
   color: rgba(255, 255, 255, 0.6);
 }
-
+.section-header-hero {
+  padding-bottom: 0;
+  color: #fff;
+}
+.section-header-hero h2 {
+  margin-bottom: 0;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1251,4 +1257,9 @@ section {
   color: var(--color-primary);
   width: 150px;
   font-size: 80px;
+}
+
+/*Custom*/
+.justify-text {
+  text-align: justify;
 }
