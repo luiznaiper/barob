@@ -1239,3 +1239,16 @@ section {
 .list-none {
   list-style: none;
 }
+
+/*--------------------------------------------------------------
+# Faq
+--------------------------------------------------------------*/
+.faq {
+  font-size: 18px;
+}
+
+.faq i {
+  color: var(--color-primary);
+  width: 150px;
+  font-size: 80px;
+}
