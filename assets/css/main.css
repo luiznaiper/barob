@@ -808,6 +808,14 @@ section {
   border-color: var(--color-primary);
 }
 
+.service-features {
+  text-align: center;
+}
+
+.service-features .icon {
+  margin: 0 auto;
+}
+
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
@@ -1091,7 +1099,7 @@ section {
   }
 }
 
-.contact a{
+.contact a {
   color: #fff;
 }
 
